@@ -1,5 +1,5 @@
 
-var viewer = new Cesium.Viewer('cesiumContainer');
+// var viewer = new Cesium.Viewer('cesiumContainer');
 
 var wyoming = viewer.entities.add({
     name: 'Wyoming',
@@ -24,4 +24,4 @@ var wyoming = viewer.entities.add({
     }
 });
 
-viewer.zoomTo(wyoming);
+//  viewer.zoomTo(wyoming);
