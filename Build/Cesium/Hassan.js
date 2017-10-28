@@ -29,4 +29,4 @@ var farm = viewer.entities.add({
     }
 });
 
-viewer.zoomTo(farm);
+// viewer.zoomTo(farm);
