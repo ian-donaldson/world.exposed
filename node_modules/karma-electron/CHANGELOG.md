@@ -1,4 +1,6 @@
 # karma-electron changelog
+5.2.2 - Replaced Gratipay with support me page
+
 5.2.1 - Upgraded to Node.js 4, 6, and 7 for CI
 
 5.2.0 - Added support for `require` in main via @amireh in #23. Fixes #24

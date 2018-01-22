@@ -17,10 +17,9 @@
   </style>
 </head>
 <body>
-  <div id="navPanel" style="width: auto; height: 100%; float: left; resize: horizontal;">This will contain a list of layers</div>
-  <div id="cesiumContainer" style="width: 80%; height: 100%; float: right; resize: horizontal;"></div>
-  <script src="../Build/Cesium/arcgis.js"></script>
-
+  <div id="cesiumContainer"></div>
+  <script>
+    var viewer = new Cesium.Viewer('cesiumContainer');
+  </script>
 </body>
 </html>
-
